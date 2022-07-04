@@ -1,5 +1,37 @@
 body{
-
+    background-color: bisque;
     background-image: url(/myportfolio/bgimage.jpg);
-    
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(214, 170, 133);
+    position: fixed;
+    top: 10;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(209, 160, 134);
+  }
+  
+  .active {
+    background-color:rgb(209, 165, 111);
+  }
+  .port {
+    background-color: beige;
+  }
