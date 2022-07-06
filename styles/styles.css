@@ -8,6 +8,7 @@
 body{
     background-image: url(/myportfolio/bgimage.jpg);
 }
+/*navbar styling*/
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
@@ -16,8 +17,8 @@ body{
 .navbar {
     position: fixed;
     width: 100%;
-   /* background: rgb(220, 172, 93);*/
-    padding: 20px 0;
+    background: rgb(220, 172, 93);
+    padding: 10px 0;
     font-family:'ubuntu',sans-serif;
 }
 .navbar .max-width {
@@ -47,7 +48,7 @@ body{
 .navbar .menu li a:hover {
     color: rgb(214, 80, 80);
 }
-
+/*home styling*/
 .home {
     display: flex;
     background:url(/myportfolio/alku.jpg)no-repeat right;
@@ -70,4 +71,42 @@ body{
 .home .home-content .text3 {
     font-size: 30px;
     margin: 5px 0;
+}
+/*about styling*/
+.about {
+    font-family:'Poppins' sans-serif;
+}
+.about .title {
+    font-family:'Ubuntu' sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+}
+.about .about-content .column-left { 
+    width: 55%;
+} 
+.about .about-content .column-left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+} 
+.about .about-content .column-right {
+    width: 45%;
+}
+.about .about-content .column-right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .column-right p {
+   text-align: right;
 }
