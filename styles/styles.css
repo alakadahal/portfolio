@@ -5,9 +5,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 body{
-    background-image: url(/myportfolio/bgimage.jpg);
+    background-image: url(/bgimage.jpg);
+    
 }
+
 /*navbar styling*/
 .max-width {
     max-width: 1300px;
@@ -51,7 +54,7 @@ body{
 /*home styling*/
 .home {
     display: flex;
-    background:url(/myportfolio/alku.jpg)no-repeat right;
+    background:url(/alku.jpg)no-repeat right;
    height:100vh;
     color: rgb(118, 77, 54);
     min-height: 500px;
@@ -72,26 +75,29 @@ body{
     font-size: 30px;
     margin: 5px 0;
 }
+
 /*about styling*/
 .about {
     font-family:'Poppins' sans-serif;
 }
 .about .title {
     font-family:'Ubuntu' sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    color: blueviolet;
 }
 .about .about-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     justify-content: space-between; 
 }
 .about .about-content .column-left { 
-    width: 55%;
+    width: 50%;
 } 
 .about .about-content .column-left img {
     height: 400px;
@@ -99,14 +105,32 @@ body{
     object-fit: cover;
     border-radius: 6px;
 } 
+
 .about .about-content .column-right {
-    width: 45%;
+    width: 50%;
 }
 .about .about-content .column-right .text {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .about .about-content .column-right p {
-   text-align: right;
+   color: rgb(23, 108, 108);
+} 
+ /*contact styling*/
+ .contact {
+    font-family:'Poppins' sans-serif;
+}
+.contact .title {
+    font-family:'Ubuntu' sans-serif;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: blueviolet;
+}
+.contact .column-left .text {
+    font-size: 20px;
 }
