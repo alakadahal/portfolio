@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/Portfolio/myportfolio/bgimage.jpg);
+    background-image: url(/bgimage.jpg);
     
 }
 
@@ -55,7 +55,7 @@ body {
 /*home styling*/
 .home {
     display: flex; 
-    background:url(/Portfolio/myportfolio/alku.jpg)no-repeat right;
+    background:url(/alku.jpg)no-repeat right;
    height:100vh;
     color: rgb(118, 77, 54);
     min-height: 500px;
@@ -98,7 +98,7 @@ body {
     justify-content: space-between; 
 }
 .about .about-content .column-left { 
-    width: 50%;
+    width: 50% ;
 } 
 .about .about-content .column-left img {
     height: 400px;
@@ -139,3 +139,4 @@ body {
 .footer {
     font-family: 'Poppins' sans-serif;
 }
+              
