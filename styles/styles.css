@@ -6,8 +6,8 @@
     text-decoration: none;
 }
 
-body{
-    background-image: url(/bgimage.jpg);
+body {
+    background-image: url(/Portfolio/myportfolio/bgimage.jpg);
     
 }
 
@@ -21,6 +21,7 @@ body{
     position: fixed;
     width: 100%;
     background: rgb(220, 172, 93);
+    opacity: 1;
     padding: 10px 0;
     font-family:'ubuntu',sans-serif;
 }
@@ -53,8 +54,8 @@ body{
 }
 /*home styling*/
 .home {
-    display: flex;
-    background:url(/alku.jpg)no-repeat right;
+    display: flex; 
+    background:url(/Portfolio/myportfolio/alku.jpg)no-repeat right;
    height:100vh;
     color: rgb(118, 77, 54);
     min-height: 500px;
@@ -87,7 +88,7 @@ body{
     font-weight: 500;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    padding-top: 30px;
+    padding-top: 20px;
     color: blueviolet;
 }
 .about .about-content {
@@ -118,7 +119,7 @@ body{
    color: rgb(23, 108, 108);
 } 
  /*contact styling*/
- .contact {
+.contact {
     font-family:'Poppins' sans-serif;
 }
 .contact .title {
